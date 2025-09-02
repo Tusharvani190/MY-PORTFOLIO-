@@ -9,7 +9,6 @@
 
 body {
     font-family: "Poppins", sans-serif;
-    
 }
 
 html {
@@ -20,8 +19,7 @@ a {
     text-decoration: none;
     color: black;
     font-size: 1.2rem;
-    transition: all ease 800ms;
-
+    transition: all ease 100ms;
 }
 
 li {
@@ -39,7 +37,7 @@ li {
 .container{
     width: 100%;
     height: 100vh;
-    padding: 0px 200px;
+    padding: 50px 200px;
 }
 
 
@@ -62,6 +60,7 @@ a:hover{
 .hero-section{
     padding: 0px 320px;
     justify-content: space-around;
+    align-items: center;
     text-align: center;
 }
 
@@ -88,24 +87,31 @@ a:hover{
 }
 
 #profile-btn a:nth-child(1){
+    background-color: rgb(0, 0, 0);
     padding: 10px;
-    border: 1px solid black;
+    color: white;
+    border: 1px solid rgb(164, 158, 158);
     border-radius: 50px;
     font-size: 0.80rem;
 }
 
 #profile-btn a:nth-child(2){
+ background-color: rgb(0, 0, 0);
     padding: 10px;
-    border: 1px solid black;
-    border-radius: 50px;
-    background-color: black;
     color: white;
+    border: 1px solid rgb(164, 158, 158);
+    border-radius: 50px;
     font-size: 0.80rem;
 }
 
 #profile-btn a:nth-child(1):hover{
-    color: white;
-    background-color: black;
+    color: rgb(52, 50, 50);
+    background-color: rgb(255, 255, 255);
+}
+
+#profile-btn a:nth-child(2):hover{
+    color: rgb(52, 50, 50);
+    background-color: rgb(255, 255, 255);
 }
 
 .about-container > p {
@@ -133,7 +139,7 @@ a:hover{
 .about-info-div{
     width: 350px;
     padding: 20px 50px;
-    border: 1px solid black;
+    border: 2px solid black;
     text-align: center;
     border-radius: 20px;
     flex-direction: column;
@@ -143,6 +149,150 @@ a:hover{
 
 #about-para{
     margin-top: 2rem;
+    font-size: 1.1rem;
     text-align: justify;
     color: darkgray;
+    line-height: 1.7rem;
+}
+
+.experience-container {
+    margin-top: 5rem;
+}
+
+.experience-container > p {
+    text-align: center;
+    color: darkgray;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.experience-container > h2 {
+    font-size: 2rem;
+}
+
+.experience-div {
+    margin-top: 5rem;
+}
+
+.Frontend{
+    width: 500px;
+    /* background-color: aquamarine; */
+    padding: 30px 60px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.Frontend h3 {
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.tech-list ul li {
+    margin: 20px 0px;
+}
+
+.tech-list ul li h4 {
+    margin-bottom: 10px;
+}
+
+#project-section {
+    margin-top: 5rem;
+}
+
+.project-container  > p {
+    text-align: center;
+    color: darkgray;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.project-container  > h2 {
+    font-size: 2rem;
+}
+
+.projects {
+    margin-top: 5rem;
+}
+
+.projects #project {
+    padding: 50px;
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.projects #project img {
+    width: 250px;
+    border-radius: 20px;
+}
+
+.projects #project h3 {
+    margin: 20px 0px;
+}
+
+.projects #project a {
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.projects #project a:hover {
+    background-color: black;
+    color: white;
+}
+
+.get-in-touch-container{
+    padding: 10px 100px;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+.get-in-touch-container p {
+    color: darkgray;
+    font-size: 1.2rem;
+}
+
+.get-in-touch-container h2 {
+    font-size: 2rem;
+}
+
+.Contact-div {
+    width: min-content;
+    border: 2px solid black;
+    border-radius: 20px;
+    gap: 0px;
+
+}
+
+.Contact-links {
+    padding: 20px;
+   
+}
+
+.Contact-links > a:hover {
+    color: lightgray;
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 15px;
+}
+
+.Contact-links img {
+    width: 30px;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    gap: 30px;
+}
+
+.footer-links li a{
+    font-size: 1.5rem;
 }
